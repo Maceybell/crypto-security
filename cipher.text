@@ -1,0 +1,18 @@
+abcdefghijklmnopqrstuvwxyz
+mnopqrstuvwxyzabcdefghijkl
+
+I love cryptography
+u xahq odkbfasdmbtk
+
+let alphabet = abcdefghijklmnopqrstuvwxyz
+let cipher = mnopqrstuvwxyzabcdefghijkl
+
+let decode = (str) => {
+    for (i=0; i<str.length; i++){
+        for (k=0; k<26; k++){
+            if str[i] = alphabet[k]{
+                str.replace("str[i]', "cipher[k]")
+            }
+        }
+    }
+}
